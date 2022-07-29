@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head,
+body {
+    overflow-x: hidden;
+}
+
+header .fs-1 {
+    font-size: calc(2.5rem + 1.5vw) !important;
+}
+
+.top-heading {
+    color: #a70c0c;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
+#right-banner {
+    height: 100%;
+}
+
+/* .row>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+} */
+
+.logo .img-fluid {
+    height: 100%;
+    width: 100%;
+}
+
+.navig {
+    background-color: rgb(151 23 23);
+}
+
+/* SECTION-1 */
+
+.section-1 .side-2 {
+    background-image: url(./img/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 .background {
+    /* --bs-bg-opacity: 1; */
+    background-image: linear-gradient(#c32b2b, #481212) !important;
+    color: #fff;
+}
+
+.gradiant {
+    background-image: linear-gradient(#c32b2b, #481212) !important;
+    color: #fff;
+}
+
+.confidential {
+    transform: rotate(18deg);
+    padding-top: 30px;
+}
+
+.question-1 {
+    color: blue;
+}
+
+/* SECTION-2 */
+.brown {
+    color: brown;
+}
+
+#section-2border {
+    border-left: 1.5px solid gray;
+    border-right: 1.5px solid gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button1 {
+    /* justify-content: center; */
+    margin: 0 auto;
+    margin-left: 1.5rem;
+}
+
+.button2 {
+    /* justify-content: end; */
+    margin-left: 4rem;
+}
+
+.button3 {
+    margin-left: 4rem;
+}
+
+.bg-secondary {
+    border-left: 10px solid red !important;
+}
+
+.gradiant-color {
+    color: #756363;
+}
+
+.gray {
+    color: gray;
+}
+
+.bottom-h2 {
+    color: #d9c6c6;
+}
+
+#bottom-icon img {
+    width: 2.7rem;
+}
+
+/* responsive css */
+@media (max-width:767px) {
+
+    #section-2top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section2-button {
+        font-size: 0.7rem;
+        padding-right: 1rem;
+    }
+
+    #section-2top button,
+    .line {
+        margin: 0 auto;
+    }
+
+    .text-end h3 {
+        font-size: 1.2rem !important;
+    }
+
+    #form img {
+        display: none;
+    }
+
+    #section-2leftside {
+        text-align: center;
+    }
+
+    .section-2leftside .para {
+        margin-left: 20px;
+    }
+
+    .top-div .center {
+        text-align: center;
+    }
+
+    .learn {
+        text-align: center;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+    .secondlast {
+        text-align: center;
+    }
+
+    .secondlast button {
+        margin: 0 auto;
+    }
+
+    .lastlogo {
+        margin-left: 3rem;
+    }
+
+}
